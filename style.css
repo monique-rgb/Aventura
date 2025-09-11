@@ -1,0 +1,27 @@
+
+
+
+body {
+    background-color: crimson;
+    color:white;
+    font-family: "cursive", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-family: "sans-serif", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
