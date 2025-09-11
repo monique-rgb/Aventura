@@ -18,13 +18,10 @@ avanca.forEach{button =>{
     const proximoPasso= 'passo-'+ this.getAttribute('data-proxima');
     if (proximoElemento) {
         proximoElemento.classList.add('ativo');
-    } else 
-}
-}
-})
-    
+    } else {
+        console, console.error(`Elemento com ID "${proximoPasso}" não encontrado.`);
+                }
 
-}
-
-
-)
+         } }}
+    )
+        });
